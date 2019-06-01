@@ -8,26 +8,38 @@
     <title>Guess the bird</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro:300,400,600,700,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../Word-Guess-Game/assets/style.css">
+    <!-- Northern Cardinal image source: https://www.allaboutbirds.org/guide/Northern_Cardinal/media-browser/475336 -->
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="topBanner">
-            <h1>Guess the Bird</h1>
-            <blockquote>
-                “In order to see birds it is necessary to become a part of the silence.”
-                ― Robert Lynd
+    <div class="jumbotron jumbotron-fluid topBanner">
+        <div class="container text-center mb-4">
+            <h1 class="display-3 mb-4 text-white">Guess the Bird</h1>
+        </div>
+        <div>
+            <blockquote class="blockquote text-center text-white">
+                <p class="lead">“In order to see birds, it is necessary to become a part of the silence.”</p>
+                <footer class="blockquote-footer text-white">Robert Lynd</footer>
             </blockquote>
         </div>
-        <div class="wrapper">
-            <div class="birdPhoto">
-                <img src="" alt="" id="">
-                <audio id="myAudio">
-                    <source src="horse.mp3" type="audio/mpeg">
-                </audio>
+
+    </div>
+    <div class="container">
+        <div class="wrapper row">
+            <div class="col-md-1"></div>
+            <div class="birdPhoto col-md-4 float-sm-left">
+                <img src=""
+                    alt="picture of the chosen bird" class="birdPictures">
             </div>
-            <div class="game">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="game text-align-left col-md-4">
                 <p class="instructions">Press any key to get started!</p>
                 <p class="wins">Wins: <span class="winsDisplay">0</span></p>
                 <div class="word">
@@ -36,6 +48,7 @@
                 <p class="chances">Number of guesses remaining: <span class="chancesDisplay">13</span></p>
                 <p class="guessed">Letters already guessed: <span class="guessedDisplay"></span></p>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 
@@ -50,6 +63,10 @@
     </script>
     <script src="../Word-Guess-Game/assets/game.js">
     </script>
+
+    <footer class="sticky-footer bg-warning footer mt-3">
+        <p class="text-dark copyright">Copyright 2019</p>
+    </footer>
 </body>
 
 </html>

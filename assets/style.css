@@ -1,0 +1,42 @@
+body {
+    background: #fcfcfc;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height:100%;
+    position:relative;
+    padding-bottom: 70px;
+}
+
+html {
+    height:100%;
+}
+.topBanner {
+    background: url("../assets/images/yellow-flowers.jpg");
+    background-position: center;
+}
+
+.birdPictures{
+    max-width: 400px;
+    border-radius: 400px;
+    box-shadow: 3px 2px 8px gray;
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.sticky-footer {
+    width:100%;
+    text-align:center;
+    margin:auto;
+    padding-top: 10px;
+    border-top: 4px solid #f2c977;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right:0;
+    height:50px;
+}
+
+.copyright {
+    margin-bottom:0;
+}
