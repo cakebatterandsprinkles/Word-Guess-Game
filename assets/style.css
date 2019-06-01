@@ -16,12 +16,13 @@ html {
 
 .birdPictures{
     max-width: 400px;
+    width:100%;
     border-radius: 400px;
     box-shadow: 3px 2px 8px gray;
 }
 
 .wrapper {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .sticky-footer {
