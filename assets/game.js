@@ -65,7 +65,7 @@ document.addEventListener("keydown", function (event) {
     //     chosenWordDisplay[chosenWordLetters.indexOf(keyPressed)].textContent = keyPressed;
     //     wordDisplay(chosenWordLetters);
     // }
-})
+});
 
 
 //WIN: if all of the "_"s are gone from the display without the chances being 13, you win
